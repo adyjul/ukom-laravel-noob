@@ -1,0 +1,78 @@
+html,
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background: #e9e9ff;    
+    font-size: 16px;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #2a2a2a;
+}
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 0.875rem 0 rgba(33, 37, 41, 0.05);
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+    color: #c4c4c4 !important;    
+ }
+ :-moz-placeholder {
+    font-style: italic;
+    color: #c4c4c4 !important;    
+ }
+ ::-moz-placeholder {
+    font-style: italic;
+    color: #c4c4c4 !important;    
+ }
+ :-ms-input-placeholder {  
+    font-style: italic;
+    color: #c4c4c4 !important;    
+ }
+
+.login-view .logo-brand{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 6px;
+    justify-content: center;   
+}
+
+.login-view .card-body .judul{
+    font-weight: bold;
+    font-size: 20px;
+    color: #002e5c !important;
+}
+
+
+.login-view .card-top{
+    height: 5px;
+    background-color:#800000;
+}
+
+/* biodata */
+
+
+.top-page h1{
+    text-align: center;
+
+}
+
+.sw-theme-dots > .nav .nav-link.active p{
+    color: #428bca;
+}
+
+.sw-btn-submit{
+    background-color:#fb0053 !important;
+    border:1px solid #fb0053 !important;
+}
+
+/* end biodata */
